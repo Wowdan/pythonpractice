@@ -32,3 +32,4 @@ for i in range(0,kinds):
 print("{0:5s} {1:5s} {2:5s} {3:5s}".format("水果","單價","數量","總價"))
 for j in range(0,kinds): 
     print("%2s  %5.1f  %5.1f  %5.1f" % (fruit_name[j],fruit_price[j],fruit_num[j],fruit_total[j]))
+
